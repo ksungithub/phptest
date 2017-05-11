@@ -2,6 +2,9 @@
 <head><title>Solution</title></head>
 
 <body>
+
+<p>Your solution is:</p>
+
 <?php
 
     if (isset($_POST['submit']))
@@ -13,19 +16,19 @@
 
         switch ($operator)
         {
-            case "Add"
+            case "Add":
             echo $number + $number2;
             break;
 
-            case "Subtract"
+            case "Subtract":
             echo $number - $number2;
             break;
 
-            case "Multiply"
+            case "Multiply":
             echo $number * $number2;
             break;
 
-            case "Divide"
+            case "Divide":
             echo $number / $number2;
             break;     
         }
